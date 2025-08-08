@@ -29,10 +29,10 @@ module.exports = {
       filename: "remoteEntry.js",
 
       remotes: {
-        nav: process.env.NAV_REMOTE_URL,
-        item_cart: process.env.ITEM_CART_REMOTE_URL,
-        product_page: process.env.PRODUCT_PAGE_REMOTE_URL,
-        store_remote: process.env.STORE_REMOTE_URL,
+        nav: `nav@${process.env.NAV_REMOTE_URL}`,
+        item_cart: `item_cart@${process.env.ITEM_CART_REMOTE_URL}`,
+        product_page: `product_page@${process.env.PRODUCT_PAGE_REMOTE_URL}`,
+        store_remote: `store_remote@${process.env.STORE_REMOTE_URL}`,
       },
 
       shared: {
