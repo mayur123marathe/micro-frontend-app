@@ -19,8 +19,8 @@ export default function Body() {
 
   return (
     <div>
-      <h1>Welcome to the Body Component</h1>
-      <p>This is where the main content will be displayed.</p>
+      <h1>Hungry? We’ve Got You Covered</h1>
+      <p>Select a product to view details or add it directly to your cart</p>
 
       <Suspense fallback={<div>Loading Item Carts...</div>}>
         <div className="item-cart-container">
